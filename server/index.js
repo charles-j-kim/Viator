@@ -21,7 +21,7 @@ const GOOGLE_KEY = process.env.GOOGLE_KEY || require('./config').GOOGLE_KEY;
 const DARK_SKY_KEY = process.env.DARK_SKY_KEY || require('./config').DARK_SKY_KEY;
 const FLIGHT_API_KEY = process.env.FLIGHT_API_KEY || require('./config').FLIGHT_API_KEY;
 const FLIGHT_APP_KEY = process.env.FLIGHT_APP_KEY || require('./config').FLIGHT_APP_KEY;
-const MAILGUN_API_KEY = process.env.FLIGHT_APP_KEY || require('./config').MAILGUN_API_KEY;
+const MAILGUN_API_KEY = process.env.MAILGUN_API_KEY || require('./config').MAILGUN_API_KEY;
 
 const place = new GooglePlaces(GOOGLE_KEY, 'json');
 

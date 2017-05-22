@@ -149,24 +149,19 @@ class NavigationCard extends React.Component {
             height: '20%',
           },
           map: {
-            height: '65%',
+            height: '60%',
           },
           actions: {
             height: '20%',
           }
         }
 
-      const uberImageStyle = {
-        backgroundImage: `url(${uberBar})`,
-        width: '100%'
-      }
-
-      const priceStyle = {
-        textAlign: 'right',
-        width: '300',
-        height: '44',
-        margin: 'auto'
-      }
+    const priceStyle = {
+      textAlign: 'right',
+      width: '300',
+      height: '44',
+      margin: 'auto'
+    }
 
     return (
       <div>
@@ -202,9 +197,12 @@ class NavigationCard extends React.Component {
                   })}
                 </GoogleMapReact>
               </div>
-              <div style={uberImageStyle}>
-                <p style={priceStyle}>Price Estimate: {this.state.price}</p>
-              </div>
+              <CardHeader
+                title={'Price Estimate: '} 
+                subtitle={this.state.price}
+                avatar={uberLogo} 
+
+              />
         </Card>
       </div>
     )

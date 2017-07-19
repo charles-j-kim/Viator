@@ -1,8 +1,9 @@
 # Viator by Majestic Owls
 ## Team Members
-- Jeffrey Chen
-- Jim Lee
-- Anthony Wong
+- Charles Kim
+- Doug Cox
+- Kara Marnell
+- Vincent Van Buskirk
 ## Documentation
 - [Style Guide](STYLE-GUIDE.md)
 - [Contributing](CONTRIBUTING.md)
